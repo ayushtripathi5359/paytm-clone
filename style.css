@@ -1,0 +1,141 @@
+html,body{
+    padding: 0%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-items li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+  }
+.nav-item{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.nav-items li a {
+    display: block;
+    text-align: center;
+    padding: 18px;
+    padding-top: 10px;
+    font-size: large;
+    text-decoration: none;
+  }
+
+.nav img{
+    padding-top: 8px;
+}
+.nav-items div{
+    height:fit-content;
+}
+.nav-items ul li{
+    margin: 3px;
+    margin-right: 9px;
+}
+.nav-items ul li a{
+    padding: 8px;
+    font-weight: 800;
+}
+.nav-items div:hover{
+    background-color: rgb(236, 232, 232);
+}
+.signin{
+    margin-left: 39px;
+    position: relative;
+    margin-top: 9px;
+}
+.signin span{
+    align-items: center;
+}
+.signin .userimg{
+    background: #00baf2;
+    padding: 2px 2px 2px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+.imageuser{
+    margin-left: 9px;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+.second-phase-one{
+    padding: 128px 0 120px;
+    width: 1260px;
+    margin: auto;
+}
+.second-phase-two{
+    width: 650px;
+}
+.second-phase-two img{
+    width: 80px;
+    box-shadow: 0 5px 20px rgba(0, 41, 112, .1);
+    border-radius: 16px;
+}
+
+.text-second-phase{
+    padding-top: 2px;
+    width: 475px;
+    margin-bottom: 4px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.second-phase-two-head{
+    margin-top: 4px;
+    width: 390px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    
+}
+.button{
+    padding: 0 24px;
+    height: 44px;
+    font-size: 15px;
+    width: max-content;
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(56, 54, 54);
+}
+.button svg{
+    padding-left: 8px;
+    font-size: 400px;
+}
